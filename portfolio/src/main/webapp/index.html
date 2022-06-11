@@ -103,12 +103,21 @@ Applying Java code, Java collection. Making leverage of user interface, resource
       <div id="greeting-container"></div>
     </div>
 
-    <form action="/form-handler" method="POST">
+    <!--<form action="/form-handler" method="POST">
         <p>Something you want to say to me >></p>
         <textarea name="text-input"></textarea>
         <br/>
         <input type="submit" />
-      </form>
+      </form>-->
+      
+      <br>
+      <script src="script.js"></script>
+      <p>Something you want to say to me >></p>
+        <textarea name="text-input"></textarea>
+        <button onclick = "fetches();">
+        Get response: 
+        </button>
+        <p id ="response-container"></p>
       
   </body>
 </html>
