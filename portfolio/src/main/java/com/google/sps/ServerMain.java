@@ -18,7 +18,7 @@ public class ServerMain {
   public static void main(String[] args) throws Exception {
 
     // Create a server that listens on port 8080.
-    Server server = new Server(8080);
+    Server server = new Server(8081);
     WebAppContext webAppContext = new WebAppContext();
     server.setHandler(webAppContext);
 
