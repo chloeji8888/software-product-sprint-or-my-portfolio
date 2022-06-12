@@ -31,6 +31,7 @@ async function fetches(){
   const textFromResponse = await responseFromServer.text();
   const responseContainer = document.getElementById('response-container');
   responseContainer.innerText = textFromResponse;
+  
 }
 
 document.addEventListener('DOMContentLoaded', (e) => { 
