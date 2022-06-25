@@ -36,11 +36,6 @@ public class HelloWorldServlet extends HttpServlet  {
     json += "} ";
     return json;
   }
-//   private String convertToJsonUsingGson(ArrayList<String> input) {
-//     Gson gson = new Gson();
-//     String json = gson.toJson(input);
-//     return json;
-//   }
 }
 
 

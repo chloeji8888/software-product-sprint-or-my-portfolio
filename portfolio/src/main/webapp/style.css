@@ -13,3 +13,9 @@
     margin-top: 20px;
     color: rgb(204, 72, 186);
 }
+
+#map {
+    border: thin solid black;
+    height: 500px;
+    width: 500px;
+  }

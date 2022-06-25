@@ -1,4 +1,4 @@
-package main.java.com.google.sps.servlets;
+package com.google.sps.servlets;
 
 import com.google.api.gax.paging.Page;
 import com.google.cloud.storage.Blob;
