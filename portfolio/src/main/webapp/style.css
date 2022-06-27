@@ -15,7 +15,7 @@
 }
 
 #map {
-    border: thin solid black;
+    border: thin solid rgb(174, 219, 245);
     height: 500px;
     width: 500px;
   }
