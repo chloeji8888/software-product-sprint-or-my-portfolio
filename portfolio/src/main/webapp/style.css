@@ -13,3 +13,18 @@
     margin-top: 20px;
     color: rgb(204, 72, 186);
 }
+
+#map {
+    border: thin solid rgb(174, 219, 245);
+    height: 500px;
+    width: 500px;
+  }
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
